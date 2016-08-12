@@ -7,5 +7,5 @@ This repository contains web pages made using HTML, CSS, jQuery and BootStrap 4
 ![S2] (./Form/img/login.png)
 
 2. Form2 (Fade animations and HD wallpaper)
-![S3] (./Form2/img/signup.jpeg)
-![S4] (./Form2/img/login.jpeg)
+![S3] (./Form2/img/signup.jpg)
+![S4] (./Form2/img/login.jpg)
