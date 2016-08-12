@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        <link rel="stylesheet" href="css/animate.css" type="text/css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+    </head>
+    <body style="color: white;">
+        <center><h1 id="welcome">Welcome to <strong>BackPack</strong></h1></center>
+        <div id="contentContainer" class="container">
+                <div class="row" id="belowlogo">
+                  <!-- Instructions -->
+                    <div class="col-md-6" id="formcontainer">
+                    <form id="signupForm" method="post" accept-charset="UTF-8" validate>
+                      <div class="input-group">
+                        <span class="input-group-addon">Full Name</span>
+                        <input id="name" class="form-control input-lg" maxlength="100" type="text" name="name">
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">Username</span>
+                        <input id="handle" class="form-control input-lg" maxlength="100" type="text" name="handle">
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">Email</span>
+                        <input id="email" class="form-control input-lg" maxlength="100" type="email" name="email" validate>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">Password</span>
+                        <input id="password" class="form-control input-lg" maxlength="60" type="password" name="password">
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">Confirm Password</span>
+                        <input id="password_confirmation" class="form-control input-lg" maxlength="60" type="password" name="password_confirmation">
+                      </div>
+                    </form>
+                        
+                    </div>
+                    <div class="col-md-6" id="features1">
+                        <h2>New Features:</h2>
+                            <dl>
+                              <dt>Coffee</dt>
+                              <dd>  Black hot drink</dd>
+                              <dt>Milk</dt>
+                              <dd>  White cold drink</dd>
+                              <dt>Pepsi</dt>
+                              <dd>  Black cold drink</dd>
+                            </dl>
+                        
+                    </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <form id="loginForm" method="post" accept-charset="UTF-8" validate >
+                            <h2>Login to avail our new features:</h2>
+                            <br>
+                      <div class="input-group">
+                        <span class="input-group-addon">Username</span>
+                        <input id="handle" class="form-control input-lg" maxlength="100" type="text" name="handle">
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">Password</span>
+                        <input id="password" class="form-control input-lg" maxlength="60" type="password" name="password">
+                      </div>
+                        <label class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">Remember Me</span>
+                        </label>
+                    </form>
+                        
+                    </div>
+                    <div class="col-md-6" id="features2" >
+                        <h2>New Features:</h2>
+                            <dl>
+                              <dt>Coffee</dt>
+                              <dd>  Black hot drink</dd>
+                              <dt>Milk</dt>
+                              <dd>  White cold drink</dd>
+                              <dt>Pepsi</dt>
+                              <dd>  Black cold drink</dd>
+                            </dl>
+                    </div>
+                </div>
+            </div>
+                    <div class="row" id="signuprow">
+                        <div class="col-md-6"><button type="submit" id="btn-signup-s" class="btn btn-block btn-primary btn-lg">Sign Up</button></div>
+                        <div class="col-md-6"><button type="submit" id="btn-login-s" class="btn btn-block btn-primary btn-lg">Already a Member? <strong>Login</strong></button></div>
+                    </div>
+                    <div class="row" id="loginrow">
+                        <div class="col-md-6"><button type="submit" id="btn-login-l" class="btn btn-block btn-primary btn-lg">LogIn</button></div>
+                        <div class="col-md-6"><button type="submit" id="btn-signup-l" class="btn btn-block btn-primary btn-lg">New to BackPack? <strong>SignUp</strong></button></div>
+                    </div>
+                  </div>
+                  <!-- /.col-xs-12 -->
+                <!-- /.row -->
+              
+              
+        
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    </body>
+</html>
