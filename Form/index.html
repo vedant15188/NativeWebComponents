@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        <link rel="stylesheet" href="css/animate.css" type="text/css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+    </head>
+    <body style="background: #c1bdba;">
+        
+        <div class="container-fluid formbody">
+            <div id="banner">
+                <center><h1>Welcome to <strong id="BP">BackPack</strong></h1></center>
+            </div>
+            <div class="pill">
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="btn btn-primary btn-block btn-lg active" id="signuptab">Signup</a>
+                </div>
+                <div class="col-md-6">
+                    <a class="btn btn-primary btn-block btn-lg" id="logintab">Login</a>
+                </div>
+            </div>
+            </div>
+            <div id="signupform">
+            <form>
+                <div class="form-group">
+                    <label for="useremail">Email Address<span class="req"> *</span></label>
+                    <input type="email" required class="form-control ip" id="emailid" placeholder="Enter your Email here">
+                    <small class="form-text text-muted">This will be used for your login</small>
+                </div>
+                <div class="form-group">
+                    <label for="userpassword">Password<span class="req"> *</span></label>
+                    <input type="password" required class="form-control ip" id="password" placeholder="Enter Password">
+                    <small class="form-text text-muted">Password must contain atleast one numerical digit</small>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> I agree to the <a href="#">Terms and Conditions</a>
+                        </label>
+                    </div>
+                </div>
+                <center><a id="tab1" type="submit" class="btn btn-primary btn-block btn-lg">SignUp</a></center>
+            </form>
+            </div>
+            <div  id="loginform">
+            <form>
+                <div class="form-group">
+                    <label for="useremail">Email Address<span class="req"> *</span></label>
+                    <input type="email" required class="form-control ip" id="emailid" placeholder="Enter your Email here">
+                    <small class="form-text text-muted">Enter your Email to continue</small>
+                </div>
+                <div class="form-group">
+                    <label for="userpassword">Password<span class="req"> *</span></label>
+                    <input type="password" required class="form-control ip" id="password" placeholder="Enter Password">
+                    <small class="form-text text-muted"><a href="#">Forgot Password?</a></small>
+                </div>
+                <center><a id="tab2" type="submit" class="btn btn-primary btn-block btn-lg">Login</a></center>
+            </form>
+            </div>
+        </div>
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    </body>
+</html>

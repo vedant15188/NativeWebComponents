@@ -1,0 +1,35 @@
+body html{
+  background-color: black;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.formbody{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 20px;
+    max-width: 50%;
+    background: rgba(19, 35, 47, 0.9);
+    color: aliceblue;
+    border: 5px solid;
+    border-color: white;
+}
+
+.req{
+    color: red;
+}
+
+.pill{
+    margin-bottom: 5px;
+}
+
+#tab1:hover , #tab2:hover {
+    background-color: red;
+    text-transform: uppercase;
+}
+
+#banner{
+    margin-bottom: 20px;
+}
+
+
+
